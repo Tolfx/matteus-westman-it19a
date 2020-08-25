@@ -1,2 +1,4 @@
-# matteus-westman-it19a
-School idk
+# This is a readME | Matteus Westman
+
+### What will be done?
+Uhh.. We will make some javascript code 
