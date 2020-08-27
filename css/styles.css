@@ -18,3 +18,13 @@ body {
     -webkit-border-radius: 10px;
     margin:10px
 }
+
+.profile {
+    border: 5px solid rgba(63, 62, 63, 0.37);
+    border-block-style: dashed;
+}
+
+.name {
+    color: white;
+    text-shadow: 2px 2px 5px rgb(247, 0, 255);
+}
