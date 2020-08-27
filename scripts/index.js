@@ -7,8 +7,13 @@ function getRandomColor() {
       color += letters[Math.floor(Math.random() * 16)];
     }
     return color;
+};
+
+function changeStatus() {
+  const SubmitButton = document.getElementById('status').value;
+  console.log(SubmitButton)
 }
 
 clickMeButton.addEventListener('click', () => {
     document.body.style.background = getRandomColor();
-})
+});
