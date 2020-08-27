@@ -11,7 +11,8 @@ function getRandomColor() {
 
 function changeStatus() {
   const SubmitButton = document.getElementById('status').value;
-  console.log(SubmitButton)
+  document.getElementById('statusChanger').innerHTML = SubmitButton;
+  console.log(`Changed status: ${SubmitButton}`);
 }
 
 clickMeButton.addEventListener('click', () => {

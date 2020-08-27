@@ -28,3 +28,11 @@ body {
     color: white;
     text-shadow: 2px 2px 5px rgb(247, 0, 255);
 }
+
+.statusBorder {
+    background-color: white;
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border: 2px solid black
+}
