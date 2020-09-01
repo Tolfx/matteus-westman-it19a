@@ -27,6 +27,6 @@ discoButton.addEventListener('click', (click) => {
   }, 100)
 })
 
-clickMeButton.addEventListener('click', (click) => {
+clickMeButton.addEventListener('keypress', (click) => {
     document.body.style.background = getRandomColor();
 });
