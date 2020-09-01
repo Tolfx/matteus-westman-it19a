@@ -1,36 +1,8 @@
+html,
 body {
-    background-color: aqua;
-}
-
-.container {
-    margin: auto;
-    width: 50%;
-    text-align: center;
-    padding: 100px;
-}
-
-button {
-    background-color: #775579;
-    color: #FFFFFF;
-    padding: 10px;
-    border-radius: 20px;
-    margin:10px
-}
-
-.profile {
-    border: 5px solid rgba(63, 62, 63, 0.37);
-    border-block-style: dashed;
-}
-
-.name {
-    color: white;
-    text-shadow: 2px 2px 5px rgb(247, 0, 255);
-}
-
-.statusBorder {
-    background-color: white;
-    margin-top: 20px;
-    margin-right: 100px;
-    margin-left: 100px;
-    border: 2px solid black
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: 0, 0;
 }
