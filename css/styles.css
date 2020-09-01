@@ -9,7 +9,7 @@ body {
     padding: 100px;
 }
 
-#clickme {
+button {
     background-color: #7993a8;
     color: #FFFFFF;
     padding: 10px;
