@@ -1,4 +1,5 @@
 const clickMeButton = document.getElementById('clickme');
+const discoButton = document.getElementById('disco');
 
 function getRandomColor() {
     var letters = "0123456789ABCDEF";
@@ -14,6 +15,12 @@ function changeStatus() {
   document.getElementById('statusChanger').innerHTML = SubmitButton;
   console.log(`Changed status: ${SubmitButton}`);
 }
+
+discoButton.addEventListener('click', () => {
+  setInterval(() => {
+    document.body.style.background = getRandomColor();
+  }, 100)
+})
 
 clickMeButton.addEventListener('click', () => {
     document.body.style.background = getRandomColor();
