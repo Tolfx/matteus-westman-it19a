@@ -21,12 +21,12 @@ function changeStatus() {
 Event listeners
 
 */
-discoButton.addEventListener('click', (click) => {
+discoButton.addEventListener('click', () => {
   setInterval(() => {
     document.body.style.background = getRandomColor();
   }, 100)
 })
 
-clickMeButton.addEventListener('keypress', (click) => {
+clickMeButton.addEventListener('click', () => {
     document.body.style.background = getRandomColor();
 });
