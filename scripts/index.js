@@ -16,12 +16,17 @@ function changeStatus() {
   console.log(`Changed status: ${SubmitButton}`);
 }
 
-discoButton.addEventListener('click', () => {
+/*
+
+Event listeners
+
+*/
+discoButton.addEventListener('click', (click) => {
   setInterval(() => {
     document.body.style.background = getRandomColor();
   }, 100)
 })
 
-clickMeButton.addEventListener('click', () => {
+clickMeButton.addEventListener('click', (click) => {
     document.body.style.background = getRandomColor();
 });
