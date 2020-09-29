@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.flexbox {
+    border: 2px solid rgba(52, 53, 52, 0.349);
+    text-align: center;
+    background:rgb(224, 178, 178);
+    margin: 5px;
+    padding: 10px;
+}
+
+header {
+    flex: 1;
+}
+
+section {
+    display: flex;
+    margin: 0;
+}
+
+nav {
+    flex: 1;
+}
+
+article {
+    flex: 5;
+}
+
+footer {
+    flex: 4;
+}
+
+
+.break {
+    flex-basis: 100%;
+    width: 0;
+}
