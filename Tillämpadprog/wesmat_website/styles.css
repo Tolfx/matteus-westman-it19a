@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(70, 70, 70);
+}
+
+/* The tim lee background image */
+.imageHero {
+    padding: 90px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/timebernes_hand.jpg");
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain, cover;
+    border-bottom: 20px black;
+    -webkit-box-shadow: 0px 20px 32px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 20px 32px 0px rgba(0,0,0,0.35);
+    box-shadow: 0px 20px 32px 0px rgba(0,0,0,0.35);
+}
+
+ /* The text and buttons for .imageHero */
+.header-middle {
+    text-align: center;
+    color: rgb(218, 214, 214);
+    margin-top: 4%;
+    font-size: 28px;
+}
+
+/* The buttons */
+.header-middle a {
+    background-color: rgb(44, 40, 40);
+    margin: 10px;
+    padding: 10px 25px;
+    display: inline-block;
+    text-decoration: none;
+    color: ivory;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.header-middle a:hover {
+    background-color: rgb(211, 205, 205);
+    color: rgb(44, 44, 42);
+}
+
+@media screen and (max-width: 598px) { 
+    .header-middle {
+        text-align: center;
+        color: rgb(218, 214, 214);
+        margin-top: 2%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 398px) { 
+    .header-middle {
+        text-align: center;
+        color: rgb(218, 214, 214);
+        margin-top: 2%;
+        font-size: 15px;
+    }
+}
