@@ -45,6 +45,24 @@ body {
     color: rgb(44, 44, 42);
 }
 
+.flexbox-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.flexbox1 {
+    min-height: 150px;
+    width: 200px;
+    margin-top: 50px;
+    background-color: rgb(194, 199, 194);
+    box-shadow: 5px 5px rgb(134, 134, 134);
+    color: rgb(224, 224, 219);
+}
+
+
 @media screen and (max-width: 598px) { 
     .header-middle {
         text-align: center;
