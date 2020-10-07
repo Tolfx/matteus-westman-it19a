@@ -7,7 +7,7 @@ const classMatesNames = [
     "Ivar Back",
     "Edwin Bryfors",
     "Milton Carlsson",
-    "Danjel Dami",
+    "Danjel Domi",
     "Linus Ekelund",
     "Simon Fatty",
     "Hakan Gundogdu",
