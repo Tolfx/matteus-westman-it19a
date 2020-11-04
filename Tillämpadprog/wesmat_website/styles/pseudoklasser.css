@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/*
+
+Container för alla boxar.
+
+*/
+.container {
+    display: flex;
+    flex-direction: row;
+}
+/* 
+
+Box1: Ska ha en backgrund som är en bild,
+sen ska den också ha en bild som försvinner när man gör :hover,
+som ska visa text.
+
+*/
+.box1 {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    margin: 1%;
+    flex: 2;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 1%;
+    background-color: rgb(194, 199, 194);
+    color: rgb(25, 25, 24);
+}
+
+.box1 img {
+    opacity: 1;
+}
+
+.box1Wrap {
+    opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+    padding: 15px;
+    background-color: rgb(194, 199, 194);
+}
+
+.box1text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.box1:hover .box1Wrap,
+.box1.active .box1Wrap {
+	opacity: 1;
+}
+
+/*
+
+
+
+
+*/
+.box2 {
+    margin: 1%;
+    flex: 2;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 1%;
+    background-color: rgb(194, 199, 194);
+    color: rgb(25, 25, 24);
+}
+
+.box3 {
+    margin: 1%;
+    flex: 2;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 1%;
+    background-color: rgb(194, 199, 194);
+    color: rgb(25, 25, 24);
+}

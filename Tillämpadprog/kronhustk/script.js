@@ -36,6 +36,6 @@ for (let i = 0; i < classMatesNames.length; ++i) {
     ol.setAttribute('href', `https://${lastNames}${firstNames}.kronhus.tk`);
     ol.setAttribute('class', 'links');
     ol.setAttribute('target', '_blank');
-    ol.innerHTML = `<br/>${lastNames}${firstNames}.kronhus.tk<br/>`;
+    ol.innerHTML = `${classMatesNames[i]}`;
     olElement.appendChild(ol);
 }
