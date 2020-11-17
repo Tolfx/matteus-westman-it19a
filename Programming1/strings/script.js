@@ -50,3 +50,19 @@ div.setAttribute('style', 'text-align: center; font-size: 20px;');
 div.innerHTML = description;
 //Append it
 jumper.appendChild(div);
+
+let alfabet = "abcdefghijklmnopqrstuvwxyzåäö";
+let bokstav1 = alfabet[0];
+let bokstav4 = alfabet[3];
+
+console.log(`Bokstav le 1 ${bokstav1}`);
+console.log(`Bokstav le 4 ${bokstav4}`);
+console.log(`Längd: ${alfabet.length}`);
+
+let uppgift = "Jag läser IT-programmet på NTI Kronhus i Göteborg";
+let bokstavertotalt = uppgift.split(/ |-/gm);
+console.log(`Antal ord: ${bokstavertotalt.length}`);
+
+let vokaler = /a|e|i|o|u|y|å|ä|ö/gm
+let volkaord = "LatjoLajban";
+console.log(`Antal vokaler i ordet ${volkaord} är: ${volkaord.match(vokaler).length}`)
