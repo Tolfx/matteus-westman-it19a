@@ -1,0 +1,64 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(24, 24, 24);
+}
+
+.container {
+    text-align: center;
+    color: aliceblue;
+}
+
+.header {
+    font-size: 200px;
+    color: rgb(58, 58, 59);
+    text-shadow: 2px 2px 8px rgb(0, 255, 64);
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.input form {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 2rem auto;
+}
+
+.input textarea {
+    box-shadow: 5px 5px darkviolet;
+    border-radius: 9px;
+}
+
+.input button {
+    margin-top: 4%;
+    padding: 5px;
+    background-color: rgb(202, 202, 202);
+    font-size: 20px;
+}
+
+.input button:hover {
+    background-color: rgb(0, 255, 64);
+}
+
+.displayContainer {
+    margin: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 5%;
+    background-color: darkseagreen;
+    box-shadow: 5px 5px darkviolet;
+    border-radius: 9px;
+}
+
+.displayContainer p {
+    font-size: 50px;
+}
+
+.displayContainer span {
+    font-size: 70px;
+    color: deeppink;
+    text-shadow: 2px 2px 8px deepskyblue;
+}

@@ -42,14 +42,14 @@ function converter(body) {
             if (convertMe[i][x] == 4 && security[i] != 2) {
                 if (convertMe[i][x] === convertMe[i][x+1]) {
                     if (convertMe[i][x] === convertMe[i][x+2]) {
-                        finalMessage += "g"
+                        finalMessage += "i"
                         security[i] = 2;
                     } else {
                         finalMessage += "h"
                         security[i] = 2;
                     }
                 } else {
-                    finalMessage += "i"
+                    finalMessage += "g"
                     security[i] = 2;
                 }
             }
@@ -72,14 +72,14 @@ function converter(body) {
             if (convertMe[i][x] == 6 && security[i] != 4) {
                 if (convertMe[i][x] === convertMe[i][x+1]) {
                     if (convertMe[i][x] === convertMe[i][x+2]) {
-                        finalMessage += "m"
+                        finalMessage += "o"
                         security[i] = 4;
                     } else {
                         finalMessage += "n"
                         security[i] = 4;
                     }
                 } else {
-                    finalMessage += "o"
+                    finalMessage += "m"
                     security[i] = 4;
                 }
             }
@@ -87,17 +87,17 @@ function converter(body) {
             if (convertMe[i][x] == 7 && security[i] != 5) {
                 if (convertMe[i][x] === convertMe[i][x+1]) {
                     if (convertMe[i][x] === convertMe[i][x+2]) {
-                        finalMessage += "p"
+                        finalMessage += "r"
                         security[i] = 5;
                     } else if (convertMe[i][x] === convertMe[i][x+3]) {
-                        finalMessage += "q"
+                        finalMessage += "s"
                         security[i] = 5;
                     } else {
-                        finalMessage += "r"
+                        finalMessage += "q"
                         security[i] = 5;
                     }
                 } else {
-                    finalMessage += "s"
+                    finalMessage += "p"
                     security[i] = 5;
                 }
             }
@@ -105,39 +105,40 @@ function converter(body) {
             if (convertMe[i][x] == 8 && security[i] != 6) {
                 if (convertMe[i][x] === convertMe[i][x+1]) {
                     if (convertMe[i][x] === convertMe[i][x+2]) {
-                        finalMessage += "t"
+                        finalMessage += "v"
                         security[i] = 6;
                     } else {
                         finalMessage += "u"
                         security[i] = 6;
                     }
                 } else {
-                    finalMessage += "v"
+                    finalMessage += "t"
                     security[i] = 6;
                 }
             }
 
             if (convertMe[i][x] == 9 && security[i] != 7) {
                 if (convertMe[i][x] === convertMe[i][x+1]) {
-                    if (convertMe[i][x] === convertMe[i][x+2]) {
-                        finalMessage += "w"
+                    if (convertMe[i][x] === convertMe[i][x+2] && !convertMe[i][x] === convertMe[i][x+3]) {
+                        finalMessage += "y"
                         security[i] = 5;
-                    } else if (convertMe[i][x] === convertMe[i][x+3]) {
-                        finalMessage += "x"
+                    } else if (convertMe[i][x] == convertMe[i][x+3]) {
+                        finalMessage += "z"
                         security[i] = 7;
                     } else {
-                        finalMessage += "y"
+                        finalMessage += "x"
                         security[i] = 7;
                     }
                 } else {
-                    finalMessage += "z"
+                    finalMessage += "w"
                     security[i] = 7;
                 }
             }
+            
         }
         finalMessage += " "
     }
     return finalMessage;
 }
-
-console.log(converter("44335 32"))
+console.log(converter("999"))
+//console.log(converter(`444333 99966688 277733 7773323444664 84433 22244474433777 99966688 277733 666552999 99966688777 777744277733 666333 84433 443344477778 4447777 44466 99966688777 4466688777733 84433 5533999 8666 84433 55566622255 4447777 22335556669 4666 8666 72777444777747777888 995559888 4555 47777888 44999988 666555997 8555444888477744488866888648833369`))
