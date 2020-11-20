@@ -9,5 +9,5 @@ clickMe.addEventListener("click", () => {
 });
 
 function filterWords(body) {
-    return body.split(/ |-/gm).join("");
+    return body.split(/ |-/gm).join(" ");
 }
