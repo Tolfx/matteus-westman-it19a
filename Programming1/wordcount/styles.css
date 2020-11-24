@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(65, 64, 64);
 }
 
 .container {
@@ -14,7 +14,7 @@ body {
 
 .header {
     font-size: 200px;
-    color: rgb(58, 58, 59);
+    color: rgb(225, 225, 238);
     text-shadow: 2px 2px 8px rgb(0, 255, 64);
     margin-bottom: 2%;
     margin-top: 2%;
@@ -28,8 +28,11 @@ body {
 }
 
 .input textarea {
-    box-shadow: 5px 5px darkviolet;
+    font-size: 30px;
+    background-color: rgb(122, 122, 122);
+    box-shadow: 5px 5px rgb(105, 104, 105);
     border-radius: 9px;
+    color: lawngreen;
 }
 
 .input button {
@@ -48,8 +51,8 @@ body {
     margin-left: 30%;
     margin-right: 30%;
     padding: 5%;
-    background-color: darkseagreen;
-    box-shadow: 5px 5px darkviolet;
+    background-color: rgb(83, 83, 83);
+    box-shadow: 5px 5px rgb(105, 104, 105);
     border-radius: 9px;
 }
 
