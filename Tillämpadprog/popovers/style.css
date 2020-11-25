@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: lavender;
+}
+
+.jumbotron {
+    background-color: rgb(203, 203, 221);
+}
+
+.btn {
+    background-color: rgb(206, 206, 251);
+    border-style: none;
+    box-shadow: 10px 10px rgba(70, 69, 69, 0.089);
+    color: rgb(255, 251, 251);
+}
+
+.btn:hover {
+    background-color: rgb(185, 185, 224);
+}
