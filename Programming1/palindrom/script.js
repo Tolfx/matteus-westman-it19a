@@ -13,9 +13,12 @@ button.addEventListener("click", () => {
     last.innerHTML = `Du har givit: ` + input;
     DOM_new.innerHTML = `Din text baklänges är: ` + reversedStringNormal.join("");
 
-    for (let i = 0; i < reversedString.length; i++) {
-        if (arrayString[i] === reversedString[i]) {
-            if (i+1 === reversedString.length) {
+    for (let i = 0; i < reversedString.length; i++) 
+    {
+        if (arrayString[i] === reversedString[i]) 
+        {
+            if (i+1 === reversedString.length) 
+            {
                 B_true.innerHTML = "Panidrom!"
                 B_true.style.color = "green"
                 break;
