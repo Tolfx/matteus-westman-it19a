@@ -21,3 +21,7 @@ body {
 .btn:hover {
     background-color: rgb(185, 185, 224);
 }
+
+.test {
+    background-color: rgba(109, 105, 105, 0.335);
+}
