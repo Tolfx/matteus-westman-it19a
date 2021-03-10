@@ -14,7 +14,7 @@ const changeOpacity = (dom) => {
         {
             case "om-mig": {
                 console.log("Showing Om-Mig");
-                Content.style.paddingBottom = "15rem";
+                Content.style.paddingBottom = "17rem";
                 Om_Mig.style.opacity = "1";
                 Bilder.style.opacity = "0";
                 Fun_Facts.style.opacity = "0";
@@ -22,7 +22,7 @@ const changeOpacity = (dom) => {
             }
             case "bilder": {
                 console.log("Showing Bilder");
-                Content.style.paddingBottom = "29rem";
+                Content.style.paddingBottom = "31rem";
                 Om_Mig.style.opacity = "0";
                 Bilder.style.opacity = "1";
                 Fun_Facts.style.opacity = "0";
