@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script defer src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script defer src="./js/script.js"></script>
+    <title>CV</title>
+</head>
+<body class="">
+    <div class="container">
+        <!-- Bild och knappar för all kontent som kan hitta -->
+        <header>
+
+            <h2 class="text-center text-monospace mt-3">Matteus Westman</h2>
+            <!-- Bild -->
+            <div class="text-center mt-2">
+                <img 
+                    src="./images/Image0047.png" 
+                    width="256" 
+                    height="256" 
+                    class="rounded shadow" 
+                    alt="profilbild"
+                >
+            </div>
+            <!-- Knappar -->
+            <div class="text-center mt-3">
+                <button onclick="changeOpacity('om-mig')" type="button" class="btn btn-primary">Om mig</button>
+                <button onclick="changeOpacity('bilder')" type="button" class="btn btn-primary">Bilder</button>
+                <button onclick="changeOpacity('fun-facts')" type="button" class="btn btn-primary">Fun facts</button>
+            </div>
+        </header>
+
+        <!-- Javascript will make this responsiv. -->
+        <div 
+            class="content jumbotron shadow mt-3" 
+            style="
+                padding-bottom: 15rem;
+                position: relative; 
+                width: 100%;
+                height: 100%;"
+            id="content"
+            >
+
+            <!-- om mig content -->
+            <div id="om-mig" style="opacity: 1; position: absolute; top: 0; padding-top: 20px;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+
+            <!-- bilder content -->
+            <div id="bilder" style="opacity: 0; position: absolute; top: 0; padding-top: 20px; padding-right: 3%">
+                <div id="carouselExampleControls" class="shadow carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner" style="width:100%; max-height: 512px !important;">
+                        <div class="carousel-item active">
+                            <img 
+                                src="https://cdn.vegaoo.se/images/rep_art/gra/314/5/314548/captain-america-halvvmask-for-barn.jpg" 
+                                class="d-block card-img-top" 
+                                alt=""
+                                height="512"
+                                width="512"
+                            >
+                        </div>
+                        <div class="carousel-item ">
+                            <img 
+                                src="https://cdn.vegaoo.se/images/rep_art/gra/314/5/314548/captain-america-halvvmask-for-barn.jpg" 
+                                class="d-block card-img-top" 
+                                alt=""
+                                height="512"
+                                width="512"
+                            >
+                        </div>
+                        <div class="carousel-item ">
+                            <img 
+                                src="https://cdn.vegaoo.se/images/rep_art/gra/314/5/314548/captain-america-halvvmask-for-barn.jpg" 
+                                class="d-block card-img-top" 
+                                alt=""
+                                height="512"
+                                width="512"
+                            >
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
+                    </div>
+            </div>
+
+            <!-- fun facts content -->
+            <div id="fun-facts" style="opacity: 0; position: absolute; top: 0; padding-top: 20px;">
+                Fun facts
+            </div>
+
+            <div style="opacity: 0;">
+                aaa
+            </div>
+        </div>
+    </div>
+</body>
+</html>
