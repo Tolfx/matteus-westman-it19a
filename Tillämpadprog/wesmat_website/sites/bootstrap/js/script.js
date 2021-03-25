@@ -30,7 +30,7 @@ const changeOpacity = (dom) => {
             }
             case "fun-facts": {
                 console.log("Showing Fun-Facts");
-                Content.style.paddingBottom = "2rem";
+                Content.style.paddingBottom = "6rem";
                 Om_Mig.style.opacity = "0";
                 Bilder.style.opacity = "0";
                 Fun_Facts.style.opacity = "1";
