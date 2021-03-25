@@ -61,3 +61,16 @@ function tiokompis(kompisett, kompistvo)
 }
 
 console.log(tiokompis(7,3)) // Rätt
+
+function addiotionSpel()
+{
+    let tal1 = Math.floor(Math.random() * 20);
+    let tal2 = Math.floor(Math.random() * 20);
+
+    let answer = prompt(`Vad är ${tal1}+${tal2} lika med?`);
+
+    if(parseInt(answer)==(tal1+tal2))
+        return console.log("Grattis du hade rätt!");
+    else
+        return console.log("Grattis du hade fel!");
+}

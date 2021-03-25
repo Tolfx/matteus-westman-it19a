@@ -20,4 +20,4 @@ function kvadrering(a, b) {
     let B = b.replace(/\-|\+/gm, "");
     return `${a}^2${b.includes("-") ? "-" : "+"}2${a}${B}+${B}^2`
 }
-console.log(kvadrering("x", "-6"));
+console.log(pqForm(12, 35));
