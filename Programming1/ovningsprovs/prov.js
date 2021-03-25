@@ -1,3 +1,20 @@
+//1
+for (let i = 0; i < 5; i++)
+{
+    console.log(i) //prints an interval like: 0-4
+}
+
+//2
+let tal = ["3", "5", 8];
+let summa = tal[1]+tal[0];
+console.log(summa)// 53
+
+//3
+let frukter = ["kiwi", "äpple", "bananer", "jordgubbar"];
+let godFrukt = frukter[2];
+console.log(godFruk) // bananer
+
+//4
 /**
  * 
  * @param {number} b 
@@ -11,6 +28,7 @@ function omkretsRekt(b,h)
  
 console.log(omkretsRekt(6, 10)) // 32
 
+//5
 /**
  * 
  * @param {string} string 
@@ -22,6 +40,7 @@ function totalWords(string)
 
 console.log(totalWords("Hej vad heter du!!")) // 15
 
+//6
 /**
  * @param {number} number
  */
@@ -43,6 +62,7 @@ function tecken(number)
 
 console.log(tecken(5))
 
+//7
 /**
  * 
  * @param {number} kompisett 
@@ -62,6 +82,7 @@ function tiokompis(kompisett, kompistvo)
 
 console.log(tiokompis(7,3)) // Rätt
 
+//9
 function addiotionSpel()
 {
     let tal1 = Math.floor(Math.random() * 20);
